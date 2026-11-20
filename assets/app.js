@@ -19,6 +19,7 @@
 
   function render(data) {
     var p = data.profile || {};
+    if (p.siteName) document.getElementById('siteName').textContent = p.siteName;
     if (p.name) document.getElementById('fullName').textContent = p.name;
     if (p.alias) document.getElementById('alias').textContent = p.alias;
     if (p.tagline) document.getElementById('tagline').textContent = p.tagline;

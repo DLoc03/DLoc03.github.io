@@ -24,7 +24,8 @@ body{
   backdrop-filter:blur(18px) saturate(1.4);-webkit-backdrop-filter:blur(18px) saturate(1.4);
   box-shadow:var(--shadow);
 }
-.profile{text-align:center;padding:30px 24px 26px}
+.profile{text-align:center;padding:26px 24px}
+.brand{font-size:12px;letter-spacing:.24em;font-weight:800;color:var(--accent);text-transform:uppercase;margin-bottom:16px}
 .avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,.85);box-shadow:0 10px 24px -8px rgba(80,60,160,.45)}
 .profile h1{font-size:clamp(22px,5.6vw,27px);font-weight:800;margin-top:14px;letter-spacing:-.01em}
 .alias{margin-top:3px;font-weight:700;color:var(--accent);font-size:15px}
