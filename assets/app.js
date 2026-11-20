@@ -22,6 +22,7 @@
     if (p.name) document.getElementById('fullName').textContent = p.name;
     if (p.alias) document.getElementById('alias').textContent = p.alias;
     if (p.tagline) document.getElementById('tagline').textContent = p.tagline;
+    if (p.bio) document.getElementById('bio').textContent = p.bio;
     if (p.location) document.getElementById('location').textContent = p.location;
     if (p.avatar) document.getElementById('avatar').src = p.avatar;
 
